@@ -1,0 +1,30 @@
+<idea-plugin>
+    <id>com.dhiwise.pxtodp</id>
+    <name>PxToDp Converter</name>
+    <version>1.0</version>
+    <vendor email="masteraccounts@dhiwise.com" url="https://www.dhiwise.com">PxToDp</vendor>
+    <description><![CDATA[
+      PxToDp converter creates dimension files to make your UI responsive across all the devices. Simply Input the width and height of your app screen design, and have your responsive UI work on any phone and tablet within seconds.
+    ]]></description>
+
+    <idea-version since-build="173.0"/>
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+
+    <depends>com.intellij.modules.platform</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="PxToDp Converter" displayType="BALLOON"/>
+    </extensions>
+
+
+    <actions>
+        <action id="action.GenerateDimensionAction"
+                text="PxToDp Converter"
+                description="PxToDp Converter"
+                class="action.GenerateDimensionAction"
+               >
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+        </action>
+    </actions>
+
+</idea-plugin>
