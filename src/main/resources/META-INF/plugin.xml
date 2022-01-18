@@ -4,8 +4,49 @@
     <version>1.0</version>
     <vendor email="masteraccounts@dhiwise.com" url="https://www.dhiwise.com">PxToDp</vendor>
     <description><![CDATA[
-      PxToDp converter creates dimension files to make your UI responsive across all the devices. Simply Input the width and height of your app screen design, and have your responsive UI work on any phone and tablet within seconds.
-    ]]></description>
+      <p>A more advanced alternative of SDP - a scalable size unit.</p>
+      <p>PxToDp converter creates dimension files to make your UI responsive across all the devices.
+      Simply Input the width and height of your app screen design, and have your responsive UI work on any phone and tablet within seconds.</p>
+      <br><p><b>How does it work?</b></p><br>
+        <p>PxToDp converter's advanced algorithm auto generates the required responsive UI framework according to developers requirements.</p>
+            <li>Right click on Res folder then select PxToDp plugin</li>
+            <br> <img src="https://raw.githubusercontent.com/DhiWise/PxToDpConverter/master/screenshot/pxtodp.gif"><br><br>
+            <li> In the PxToDp converter, input your app frame design viewport width and height.</li>
+             <br>  <img src="https://raw.githubusercontent.com/DhiWise/PxToDpConverter/master/screenshot/img_pxtodp.png"><br><br>
+            <li> Taking your input, our Responsive PxToDp converter will create the dimes xml file.</li>
+            <li> The file will have required inputs for pxh (pixel horizontally) and pxv (pixel vertically).</li>
+            <li> All the mobile design dimes xml files will be generated in your code.</li>
+      <br><b><h3>Example</h3></b>
+      <br>
+      <li><b>Your regular design xml file(DP/SP/PX)</b></li>
+     <br> <p>&lt;TextView<br>
+android:id="@+id/txtSkip"<br>
+android:layout_width="wrap_content"<br>
+android:layout_height="wrap_content"<br>
+android:layout_gravity="end"<br>
+android:layout_marginStart="32dp"<br>
+android:layout_marginTop="66dp"<br>
+android:layout_marginEnd="32dp"<br>
+android:alpha="0.4"<br>
+android:gravity="center"<br>
+android:text="Skip" /></p>
+<br>
+
+  <li><b>Integration of pxh & pxv in your code(PxToDp converter)</b></li>
+      <br><p>&lt;TextView<br>
+android:id="@+id/txtSkip"<br>
+android:layout_width="wrap_content"<br>
+android:layout_height="wrap_content"<br>
+android:layout_gravity="end"<br>
+android:layout_marginStart="@dimen/_32pxh"<br>
+android:layout_marginTop="@dimen/_66pxv"<br>
+android:layout_marginEnd="@dimen/_32pxh"<br>
+android:alpha="0.4"<br>
+android:gravity="center"<br>
+android:text="Skip" /></p>
+
+
+]]></description>
 
     <idea-version since-build="173.0"/>
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
