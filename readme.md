@@ -1,5 +1,5 @@
 ## PxToDp Converter
-
+A more advanced alternative of SDP - a scalable size unit.<br>
 PxToDp converter creates dimension files to make your UI responsive across all the devices. Simply Input the width and height of your app screen design, and have your responsive UI work on any phone and tablet within seconds.
 ## How does it work?
 PxToDp converter's advanced algorithm auto generates the required responsive UI framework according to developers requirements.
