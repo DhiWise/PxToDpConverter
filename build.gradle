@@ -12,7 +12,7 @@ compileJava {
 
 
 group 'dhiwise.com'
-version '1.0.1'
+version '1.0.2'
 
 repositories {
     mavenCentral()
@@ -31,9 +31,14 @@ intellij {
     /*version = '203.7717.56'
     type = 'IC'
     plugins = ['android']*/
+    plugins = ['com.intellij.java']
     updateSinceUntilBuild=false
 }
-
+/*
+runPluginVerifier {
+    ideVersions = ["IC-2021.3.1","IC-2021.3.2","IC-2021.2","IC-2021.1.1","IC-2020.3.1","IC-2021.1"]
+}
+*/
 
 patchPluginXml {
   /*  changeNotes = """
