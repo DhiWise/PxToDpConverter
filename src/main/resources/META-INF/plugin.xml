@@ -1,7 +1,6 @@
 <idea-plugin>
     <id>com.dhiwise.pxtodp</id>
     <name>PxToDp Converter</name>
-    <version>1.0</version>
     <vendor email="masteraccounts@dhiwise.com" url="https://www.dhiwise.com">PxToDp</vendor>
     <description><![CDATA[
       <p>A more advanced alternative of SDP - a scalable size unit.</p>
@@ -48,9 +47,6 @@ android:text="Skip" /></p>
 
 ]]></description>
 
-    <idea-version since-build="173.0"/>
-    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
-         on how to target different products -->
 
     <depends>com.intellij.modules.platform</depends>
     <extensions defaultExtensionNs="com.intellij">
