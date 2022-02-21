@@ -13,10 +13,11 @@ class DimensionCreator {
         generateXMLFile(model, outputFilePath)
         generateHeightFiles(model, outputFilePath)
 
-        DIMENSION_LIST.forEach { singleDimen ->
+        DIMENSION_WIDTH_LIST.forEach { singleDimen ->
             generateXMLFile(model, outputFilePath, singleDimen)
+        }
+        DIMENSION_HEIGHT_LIST.forEach { singleDimen ->
             generateHeightFiles(model, outputFilePath, singleDimen)
-//                generateFontDimensions(jsonObject, outputFilePath, singleDimen)
         }
 
     }
