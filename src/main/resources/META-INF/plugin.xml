@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.dhiwise.pxtodp</id>
     <name>PxToDp Converter</name>
-    <vendor email="masteraccounts@dhiwise.com" url="https://www.dhiwise.com">PxToDp</vendor>
+    <vendor email="masteraccounts@dhiwise.com" url="https://www.dhiwise.com">DhiWise</vendor>
     <description><![CDATA[
       <p>A more advanced alternative of SDP - a scalable size unit.</p>
       <p>PxToDp converter creates dimension files to make your UI responsive across all the devices.
