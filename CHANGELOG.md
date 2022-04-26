@@ -7,3 +7,7 @@
 
 - Compatibility issue fix
 
+## 1.0.4
+- Change Vendor Name
+
+
